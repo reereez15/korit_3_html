@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practlice03</title>
+</head>
+<body bgcolor="5f5f5f">
+  <h1>인풋 요소 공통(대부분) 속성</h1>
+  <form action="#">
+    <label for="valIp">value</label>
+    <input type="text" id="valIp" value="지정됨">
+    <br><br>
+    <label for="autoIp">autofocus</label>
+    <input type="text" id="autoIp" placeholder="자동 포커스됨" autofocus>
+    <br><br>
+    <label for="readIp">readonly</label>
+    <input type="text" id="readIp" placeholder="읽기만 가능, 전송됨" readonly>
+    <br><br>
+    <label for="disIp">disabied</label>
+    <input type="text" id="disIp" placeholder="입력불가, 전송 안됨" disabled>
+    <br><br>
+    <label for="reqIp">required</label>
+    <input type="text" id="reqIp" placeholder="필수 입력" required>
+    <br><br>
+  <input 
+  type="radio"
+  name="fruit"
+  id="f_apple"
+  value="apple"
+checked
+>
+<label for="f_apple">사과</label>
+<input
+type="radio"
+name="fruit"
+id="f_grape"
+value="geape"
+checked
+>
+<label for="f_grape">포도</label>
+<input
+type="radio"
+name="fruit"
+id="f_orange"
+value="orange"
+disabled
+>
+<label for="f_orange">오렌지(품절)</label><br>
+<br><br>
+<button type="submit">제출</button>
+</form>
+</body>
+</html>
